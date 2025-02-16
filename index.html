@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandera de México</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Bandera de México</h1>
+    <div class="container">
+        <div class="column">
+            <label for="green">Esperanza</label>
+            <input type="range" id="green" min="0" max="100" value="50" onchange="updateShade('greenBox', this.value, 'green')">
+            <p id="greenCode">#008000</p>
+            <div id="greenBox" class="color-box" style="background-color: #008000;"></div>
+        </div>
+        <div class="middle">
+            <label>Unidad</label>
+            <p>#FFFFFF</p>
+            <div class="color-box white-box" style="background-color: #FFFFFF; border: 1px solid #000;">
+                <p class="symbol">@@@@@<br>@@@@@<br>@@@@@</p>
+            </div>
+        </div>
+        <div class="column">
+            <label for="red">Sangre de nuestros héroes nacionales</label>
+            <input type="range" id="red" min="0" max="100" value="50" onchange="updateShade('redBox', this.value, 'red')">
+            <p id="redCode">#FF0000</p>
+            <div id="redBox" class="color-box" style="background-color: #FF0000;"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <h2><center>Edgar Hernandez Mendoza</center></h2>
+    <h3><center>21200654</center></h3>
+</body>
+</html>
