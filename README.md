@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+[index.html]
+```html
+>>>>>>> 3a655cb ( Control de colores verde y rojo de la bandera)
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -32,10 +37,17 @@
     <script src="script.js"></script>
 </body>
 </html>
+<<<<<<< HEAD
 
 
 [styles.css]
 
+=======
+```
+
+[styles.css]
+```css
+>>>>>>> 3a655cb ( Control de colores verde y rojo de la bandera)
 body {
     text-align: center;
     font-family: Arial, sans-serif;
@@ -69,9 +81,16 @@ body {
     font-weight: bold;
     width: 100%;
 }
+<<<<<<< HEAD
 
 [script.js]
 
+=======
+```
+
+[script.js]
+```js
+>>>>>>> 3a655cb ( Control de colores verde y rojo de la bandera)
 function updateShade(boxId, value, color) {
     let baseColor = color === 'green' ? [0, 128, 0] : [255, 0, 0];
     let factor = value / 100;
@@ -80,6 +99,10 @@ function updateShade(boxId, value, color) {
     document.getElementById(boxId).style.backgroundColor = hexColor;
     document.getElementById(boxId + 'Code').textContent = hexColor;
 }
+<<<<<<< HEAD
 
 
 
+=======
+```
+>>>>>>> 3a655cb ( Control de colores verde y rojo de la bandera)
